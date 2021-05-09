@@ -11,6 +11,7 @@ export default function App() {
       </header>
       <main>
         <Dictionary />
+        
       </main>
       <footer className="App-footer">
         Coded by Karolina
