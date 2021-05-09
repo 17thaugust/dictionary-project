@@ -7,14 +7,14 @@ export default function App() {
     <div className="App">
       <div className="container">
       <header className="App-header">
-        <img src={logo} alt="logo" className="App-logo" />
+        <img src={logo} alt="logo" className="App-logo img-fluid" alt="logo" />
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="dusk"/>
         
       </main>
       <footer className="App-footer">
-        Coded by Karolina
+        Coded by <a href="https://github.com/17thaugust/dictionary-project" terget="_blank" rel="noreferrer">Karolina</a>
       </footer>
     </div>
   </div>
